@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+artifacts/
+data/
+.venv/
+
+renv/
+env/
+*.egg-info/

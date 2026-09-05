@@ -1,0 +1,16 @@
+# core
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+xgboost>=2.0
+
+# serving
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+redis>=5.0
+
+# optional: Phase 3 narrative generation runs against a local Ollama server
+# over plain HTTP (stdlib urllib), so no client library is required.
+# Install Ollama separately: https://ollama.com  then `ollama pull llama3.1:8b`
